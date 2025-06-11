@@ -3,7 +3,7 @@ import { Search, ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    const [modal, setModal] = useState(false)
+    const [modal, setModal] = useState(true)
     const handleLogin = () => {
 
     }
@@ -12,9 +12,9 @@ const Header = () => {
         <div>
             {/* login */}
             {
-                modal && 
-                <div className='flex items-center '> 
-                    
+                modal &&
+                <div className='flex items-center '>
+
                 </div>
             }
             {/* Header */}
